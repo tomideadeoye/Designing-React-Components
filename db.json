@@ -1,0 +1,141 @@
+{
+	"speakers": [
+		{
+			"id": "47343",
+			"first": "Web Scrape",
+			"last": "Application Python",
+			"company": "Python",
+			"twitterHandle": "Github",
+			"bio": "A Web Scraping Python Script to search for funding opportunities for the Nigerian University of Technology and Management",
+			"sessions": [
+				{
+					"id": "88888",
+					"title": "Github link: https://github.com/tomideadeoye/Scripts. A Web Scraping Python Script to search for funding opportunities for the Nigerian University of Technology and Management. The application accesses specific websites and gets all data related to educational opportunities. The application returns a CSV with funcding details.  ",
+					"room": {
+						"name": "Python, Beautiful Soup, Selenium..."
+					},
+					"eventYear": "2019"
+				}
+			]
+		},
+		{
+			"id": "5443",
+			"first": "Node",
+			"last": "Banking Portal Node JavaScript",
+			"company": "Node",
+			"twitterHandle": "Github",
+			"bio": "A NodeJS & ExpressJS banking application that persists account information between three account types: savings, credit and current",
+			"sessions": [
+				{
+					"id": "88888",
+					"title": "Github link: https://github.com/tomideadeoye/Scripts. A Web Scraping Python Script to search for funding opportunities for the Nigerian University of Technology and Management. The application accesses specific websites and gets all data related to educational opportunities. The application returns a CSV with funcding details.  ",
+					"room": {
+						"name": "NodeJS, ExpressJS..."
+					},
+					"eventYear": "2019"
+				}
+			]
+		},
+		{
+			"id": "1269",
+			"first": "LawVisuals.org",
+			"last": "React JavaScript",
+			"company": "React",
+			"bio": "A react website for hosting slides and contacting a designer ",
+			"twitterHandle": "lawvisuals.org",
+			"favorite": true,
+			"sessions": [
+				{
+					"id": "7486",
+					"title": "Wesite Link: http://lawvisuals.org This website, built with ReactJS framwork hosts slides called from a local json file. It embraces the serveless framework as it is simpley hosted on netlify",
+					"eventYear": "2019",
+					"room": {
+						"name": "ReactJS, Serverless",
+						"capacity": 130
+					}
+				}
+			]
+		},
+		{
+			"id": "1000",
+			"first": "Data Visualization",
+			"last": "Power BI",
+			"company": "Power BI",
+			"bio": "A dashboard built with Power BI. Reads CSV data to produce dashboard",
+			"twitterHandle": "Github",
+			"favorite": true,
+			"sessions": [
+				{
+					"id": "7486",
+					"title": "Github Link: https://github.com/tomideadeoye/Scripts A dashboard built with Power BI. Reads CSV data to produce dashboard",
+					"eventYear": "2019",
+					"room": {
+						"name": "PowerBI, Excel PowerQuery",
+						"capacity": 130
+					}
+				}
+			]
+		},
+		{
+			"id": "2000",
+			"first": "SQL",
+			"last": "Queries Database",
+			"company": "PostGreSQL",
+			"bio": "SQL Data Science queries Udacity Access Bank Scholarship",
+			"twitterHandle": "Github",
+			"favorite": true,
+			"sessions": [
+				{
+					"id": "7486",
+					"title": "Github Link: https://github.com/tomideadeoye/Scripts SQL Data Science queries Udacity Access Bank Scholarship",
+					"eventYear": "2019",
+					"room": {
+						"name": "SQL, PostGreSQL",
+						"capacity": 130
+					}
+				}
+			]
+		},
+		{
+			"id": "3000",
+			"first": "Crypto DashBoard",
+			"last": "React JavaScript",
+			"company": "React",
+			"bio": "A React application that pulls data from cryptogecko",
+			"twitterHandle": "Github",
+			"favorite": true,
+			"sessions": [
+				{
+					"id": "7486",
+					"title": "Github Link: https://github.com/tomideadeoye/React-Crypto-Dashboard A React application that pulls data from cryptogecko",
+					"eventYear": "2019",
+					"room": {
+						"name": "React, JavaScript",
+						"capacity": 130
+					}
+				}
+			]
+		},
+
+		{
+			"id": "5443",
+			"first": "Node",
+			"last": "Banking Portal JavaScript",
+			"company": "Node",
+			"bio": "A banking application built with node that persists account information",
+			"twitterHandle": "Github",
+			"favorite": true,
+			"sessions": [
+				{
+					"id": "676",
+					"title": "A node ",
+					"eventYear": "2011",
+					"room": {
+						"name": "A NodeJS & ExpressJS banking application that persists account information between three account types: savings, credit and current",
+						"capacity": 48
+					}
+				}
+			]
+		}
+	]
+}
