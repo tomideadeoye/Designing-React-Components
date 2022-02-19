@@ -37,7 +37,7 @@ function SpeakersList() {
 				className="speakerslist-placeholder"
 				ready={requestStatus === REQUEST_STATUS.SUCCESS}
 			>
-				<SpeakerAdd eventYear={eventYear} insertRecord={insertRecord} />
+				{/* <SpeakerAdd eventYear={eventYear} insertRecord={insertRecord} /> */}
 				<div className="row">
 					{speakersData
 						.filter(function (speaker) {

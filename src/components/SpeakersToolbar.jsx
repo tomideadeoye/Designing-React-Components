@@ -52,7 +52,7 @@ function SpeakersToolbar() {
 								<input
 									type="text"
 									className="form-control"
-									placeholder="Search..."
+									placeholder="Search project or language..."
 									onChange={(event) => {
 										setSearchQuery(event.target.value);
 									}}

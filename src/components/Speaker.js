@@ -1,4 +1,5 @@
 import React, { useState, useContext } from "react";
+import styled from "styled-components";
 import { SpeakerContext, SpeakerProvider } from "../context/SpeakerContext";
 import { SpeakerFilterContext } from "../context/speakerFilterContext";
 
@@ -43,8 +44,7 @@ function ImageWithFallback({ src, ...props }) {
 			setError(true);
 		}
 	}
-
-	return <img src={imgSrc} {...props} onError={onError} />;
+	return <ImageContainer src={imgSrc} {...props} onError={onError} />;
 }
 
 function SpeakerImage() {
@@ -148,10 +148,10 @@ function Speaker({ speaker, updateRecord, insertRecord, deleteRecord }) {
 			deleteRecord={deleteRecord}
 		>
 			<div className="col-xs-12 col-sm-12 col-md-6 col-lg-4 col-sm-12 col-xs-12">
-				<div className="card card-height p-4 mt-4">
+				<StyledCard className="card card-height p-4 mt-4">
 					<SpeakerImage />
 					<SpeakerDemographics />
-				</div>
+				</StyledCard>
 				{showSessions === true ? <Sessions /> : null}
 				{/* <SpeakerDelete /> */}
 			</div>
@@ -160,3 +160,29 @@ function Speaker({ speaker, updateRecord, insertRecord, deleteRecord }) {
 }
 
 export default Speaker;
+
+const ImageContainer = styled.img`
+	background-color: #fff;
+`;
+
+const StyledCard = styled.div`
+	flex: 1 1 auto;
+	margin: 10px;
+	padding: 5px;
+	transition: 0.5s;
+	color: white;
+	background-size: 200% auto;
+
+	border-radius: 10px;
+
+	background-image: linear-gradient(
+		to right,
+		#4169e1 0%,
+		#4b0082 51%,
+		#000000 100%
+	);
+	&:hover {
+		background-position: top right;
+		box-shadow: 0 0 5px #eee;
+	}
+`;
